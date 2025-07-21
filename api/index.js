@@ -11,7 +11,7 @@ const passportLocalmongoose = require('passport-local-mongoose');
 const jwt = require('jsonwebtoken');
 const jwtSecret = "akfjzs;lkjfd;lkasdjdflkjasdfjadsf";
 const cookieParser = require('cookie-parser');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const salt = bcrypt.genSaltSync(5);
 const authenticateJWT = require("./middleware/authenticateJWT");
 
