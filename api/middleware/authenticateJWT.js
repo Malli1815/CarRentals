@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const jwtSecret = process.env.SECRET;
+const jwtSecret = "akfjzs;lkjfd;lkasdjdflkjasdfjadsf";
 const cookieParser = require('cookie-parser');
 
 
